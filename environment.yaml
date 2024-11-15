@@ -1,0 +1,38 @@
+name: _f5-tts
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=24.1
+  - pytorch=2.2.0
+  - pytorch-cuda=11.8
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - numpy>=1.22.0
+  - pip:
+    - accelerate>=0.33.0
+    - bitsandbytes>0.37.0
+    - cached_path
+    - click
+    - datasets
+    - ema_pytorch>=0.5.2
+    - gradio>=3.45.2
+    - jieba
+    - librosa
+    - matplotlib
+    - pydub
+    - pypinyin
+    - safetensors
+    - soundfile
+    - tomli
+    - torchdiffeq
+    - tqdm>=4.65.0
+    - transformers
+    - transformers_stream_generator
+    - vocos
+    - wandb
+    - x_transformers>=1.31.14
+    - -e .
