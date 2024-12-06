@@ -7,7 +7,9 @@ ckpts/
 wandb/
 results/
 
-
+# add by self
+my_data/
+my_ref_audio/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
